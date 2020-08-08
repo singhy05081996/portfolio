@@ -1,7 +1,7 @@
 body {
   font-family: 'Lato', arial, sans-serif;
-  color: #434343;
-  background: #DAE3E7;
+  color: #fff;
+  background: #333131;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -10,7 +10,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  color: #778492;
+  color: #ffffff;
 }
 
 a {
@@ -116,8 +116,8 @@ a.dotted-link:hover {
 /* ======= Header ======= */
 .header {
   padding: 30px 0;
-  background: #f5f5f5;
-  border-top: 10px solid #778492;
+  background: #333131;
+  border-top: 10px solid #333131;
 }
 
 .header .btn {
@@ -130,14 +130,14 @@ a.dotted-link:hover {
 }
 
 .header .profile-content .name {
-  color: #49515a;
+  color: #54ba4e;
   font-size: 38px;
   margin-bottom: 5px;
   margin-top: 30px;
 }
 
 .header .profile-content .desc {
-  color: #778492;
+  color: #ffffff;
   font-family: "Lato", arial, sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -146,7 +146,7 @@ a.dotted-link:hover {
 }
 
 .header .profile-content .social a {
-  background: #b0b7bf;
+  background: #0c0c0c;
   width: 36px;
   height: 36px;
   display: inline-block;
@@ -175,6 +175,7 @@ a.dotted-link:hover {
 .sections-wrapper {
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: #424242;
 }
 
 .section {
@@ -182,14 +183,14 @@ a.dotted-link:hover {
 }
 
 .section .section-inner {
-  background: #fff;
+  background: #000000;
   padding: 30px;
 }
 
 .section .heading {
   margin-top: 0;
   margin-bottom: 30px;
-  color: #545e69;
+  color: #54ba4e;
   font-size: 24px;
 }
 
@@ -217,11 +218,11 @@ a.dotted-link:hover {
 }
 
 .latest .item .title a {
-  color: #778492;
+  color: #3AAA64;
 }
 
 .latest .item .title a:hover {
-  color: #5f6b77;
+  color: #2d844e;
 }
 
 .latest .item .project-image:hover {
@@ -323,14 +324,14 @@ a.dotted-link:hover {
   margin-bottom: 5px;
   line-height: 1.5;
 }
-
+/* 
 .projects .item .title a {
   color: #778492;
 }
 
 .projects .item .title a:hover {
   color: #5f6b77;
-}
+} */
 
 /* Work Section */
 .experience .item {
@@ -350,11 +351,11 @@ a.dotted-link:hover {
 }
 
 .experience .item .title .place a {
-  color: #999;
+  color: #3AAA64;
 }
 
 .experience .item .title .place a:hover {
-  color: #666666;
+  color: #2d844e;
 }
 
 .experience .item .title .year {
@@ -391,7 +392,7 @@ a.dotted-link:hover {
 /* Info Section */
 .info .svg-inline--fa {
   margin-right: 15px;
-  color: #ccd1d6;
+  color: #ffffff;
 }
 
 .info .svg-inline--fa.fa-envelope-o {
@@ -427,7 +428,7 @@ a.dotted-link:hover {
 }
 
 .skills .skillset .level-title .level-label {
-  color: #ccd1d6;
+  color: #778492;
   font-size: 14px;
   font-weight: 400;
   font-family: "Lato", arial, sans-serif;
@@ -485,7 +486,7 @@ a.dotted-link:hover {
 }
 
 .testimonials .item .source .name {
-  color: #939ea9;
+  color: #54ba4e;
   font-weight: 600;
 }
 
@@ -525,9 +526,6 @@ a.dotted-link:hover {
   margin-bottom: 15px;
 }
 
-.languages .item .title {
-  color: #778492;
-}
 
 .languages .item .level {
   color: #999;
@@ -576,13 +574,13 @@ a.dotted-link:hover {
   margin-right: 5px;
 }
 
-.list ul li a {
+/* .list ul li a {
   color: #778492;
 }
 
 .list ul li a:hover {
   color: #49515a;
-}
+} */
 
 /* Credits */
 .credits ul li {
@@ -618,7 +616,7 @@ a.dotted-link:hover {
 
 /* ======= Footer ======= */
 .footer {
-  background: #32383e;
+  background: #333131;
   color: #fff;
   padding: 10px 0;
 }
